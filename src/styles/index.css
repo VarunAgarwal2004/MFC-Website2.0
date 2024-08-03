@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yoshiro;
+  src: url("../assets/fonts/yoshiro_reg.otf");
+}
+@font-face {
+  font-family: yoshiro_bold;
+  src: url("../assets//fonts//yoshiro_bol.otf");
+}
+@font-face {
+  font-family: apex;
+  src: url("../assets//fonts/apex-flunkee.ttf");
+}
