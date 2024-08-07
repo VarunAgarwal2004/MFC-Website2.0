@@ -65,10 +65,11 @@ const Blogcards = ({ height, width, imageSrc, title, content, avatarSrc, authorN
               {authorTitle && <p className="text-[#F7813F] text-xs sm:text-sm">{authorTitle}</p>}
             </div>
           </div>
-          <button className="bg-[#0A0807] border-2 border-[#F7813F] hover:bg-[#F7813F] hover:text-white py-1 px-2 sm:px-4 rounded-full flex items-center font-apex text-xs gap-1 sm:gap-2">
-            <span className="hidden sm:inline">{buttonText}</span>
-            <BsArrowUpRightCircle className="text-base text-[#F7813F]" />
-          </button>
+          <button className="bg-[#0A0807] border-2 border-[#F7813F] hover:bg-[#F7813F] hover:text-white py-1 px-2 sm:px-4 rounded-full flex items-center font-apex text-xs gap-1 sm:gap-2 group">
+  <span className="hidden sm:inline">{buttonText}</span>
+  <BsArrowUpRightCircle className="text-base text-[#F7813F] group-hover:text-white" />
+</button>
+
         </div>
       </div>
     </div>
